@@ -1,0 +1,68 @@
+html, body {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+h1 {
+  background-color: red;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ul li {
+  float: left;
+}
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul li a:hover {
+  background-color: red;
+}
+
+article {
+  padding: 20px;
+  display: inline-block;
+}
+article h2 {
+  padding: 5px;
+  border-left: 5px solid red;
+}
+article img {
+  float: left;
+}
+article p {
+  padding: 10px;
+}
+article.club {
+  width: 250px;
+  vertical-align: top;
+}
+article a:link {
+  background-color: blue;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+article a:link:hover, article a:link:active {
+  background-color: red;
+}
+
+footer {
+  background-color: black;
+  padding: 50px;
+}
+footer p {
+  color: white;
+}/*# sourceMappingURL=Style.css.map */
